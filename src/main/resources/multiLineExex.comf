@@ -1,0 +1,6 @@
+
+a1.sources.r1.type = exec
+a1.sources.r1.command = tail -F /var/log/secure
+lineStartRegex=[\\d-\\s:,]+\\s\\w*?\\s\\[.*
+
+# 其他参数同execSource
